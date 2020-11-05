@@ -1,3 +1,4 @@
+// file deepcode ignore PromiseNotCaughtGeneral: <comment the reason here>
 const reportWebVitals = onPerfEntry => {
   if (onPerfEntry && onPerfEntry instanceof Function) {
     import('web-vitals').then(({ getCLS, getFID, getFCP, getLCP, getTTFB }) => {
